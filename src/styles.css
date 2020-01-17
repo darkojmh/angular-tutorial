@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+p {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+h1{
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.megaDiv {
+  border-radius: 10px;
+  outline: dashed;
+  outline-color: grey;
+  padding: 10px;
+}
