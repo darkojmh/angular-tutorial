@@ -3,9 +3,9 @@
       <div class="row">
         <div class="col-xs-12">
           <h1>I'm in the AppComponent</h1>
-          <button type="button" class="btn btn-danger">Click me for danger!</button>
+          <button type="button" class="btn btn-danger" (click)="onDanger()">Click me for danger!</button>
           <hr>
-          <app-servers></app-servers>
+          <app-servers [serverStatus]="serverStatus"></app-servers>
           <hr>
           <app-baskets></app-baskets>
         </div>
