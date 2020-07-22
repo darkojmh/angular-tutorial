@@ -18,7 +18,7 @@ import { BasketsComponent } from './baskets/baskets.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ServerComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
